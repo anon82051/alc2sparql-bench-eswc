@@ -35,7 +35,14 @@ Before running the benchmarks:
         cd <target_dir>
         sudo ./run-loaders.sh
 
-To run the SPARQL benchmarks run the script ```run_sparql.sh``` with root privileges.
+To run the benchmark execute the script ```run_sparql.sh``` with root privileges.
 
     cd <target_dir>
     sudo ./run-sparql.sh
+The results  of the benchmark (IGUANA result files) are stored in the directory `<target_dir>/iguana_results/sparql`
+
+# Datasets and Queries
+The datasets used in the benchmark and their respective queries are available online: https://www.dropbox.com/scl/fo/8bvt9b296brbwet171li5/h?dl=0&rlkey=ai1atekz4zez8wlbys6zgqkcg
+
+# Results
+The results presented in the paper are available in `results.zip`.
