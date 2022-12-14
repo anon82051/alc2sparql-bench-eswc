@@ -19,3 +19,23 @@ You can execute the playbook by issuing the following command:
 
     ansible-playbook -kKi inventory.yaml playbook.yaml
 
+# Benchmark Execution
+Before running the benchmarks:
+
+- increase ulimit
+    
+        ulimit -n 64000
+
+- set swappiness to 0
+
+        sysctl vm.swappiness=0
+    
+- prepare the databases   
+       
+        cd <target_dir>
+        sudo ./run-loaders.sh
+
+To run the SPARQL benchmarks run the script ```run_sparql.sh``` with root privileges.
+
+    cd <target_dir>
+    sudo ./run-sparql.sh
