@@ -43,3 +43,6 @@ The results  of the benchmark (IGUANA result files) are stored in the directory 
 
 # Datasets, Queries and Results
 The datasets used in the benchmark, their respective queries, and the results reported in the paper are available in `artifacts.zip`.
+
+# Pre-Built Binaries
+The pre-built binaries of our implementation are available in `ansible_playbook/roles/tentris/files`. They are provided only for the review process of ESWC2023 and are not to be redistributed.
